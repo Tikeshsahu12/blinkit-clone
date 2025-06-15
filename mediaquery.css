@@ -1,0 +1,147 @@
+ @media only screen and (min-width:200px) and (max-width:600px) {
+
+     /* .headerLeft .logo {
+        display: none;
+    } */
+     header {
+         flex-direction: column;
+         align-items: stretch;
+         padding: 10px;
+         gap: 15px;
+         /* position: sticky;
+         top: 0; */
+     }
+
+     .headerLeft .logo {
+         padding: 10px;
+     }
+
+     .headerAddress {
+         padding: 10px;
+     }
+
+     .headerAddress h3 {
+         font-size: 18px;
+     }
+
+     .headerAddress .location p {
+         font-size: 15px;
+     }
+
+     .searchBox input {
+         width: 100%;
+     }
+
+     .headerBtn a {
+         font-size: 28px;
+     }
+
+     .headerBtn {
+         display: none;
+     }
+
+     .userLogIn i {
+         display: block;
+     }
+
+     /* bannerSection */
+     .bannerSection img {
+         width: 96%;
+         margin: 0 2%;
+         height: 150px;
+     }
+
+     /* wrapper */
+     .wrapper {
+         display: none;
+     }
+
+     .grocery {
+         display: none;
+     }
+
+     /* gridGrocery */
+     .gridGrocery {
+         display: block;
+         margin: 20px;
+     }
+
+     .gridGrocery h3 {
+         font-size: 16px;
+         font-weight: bolder;
+     }
+
+     .girdList {
+         margin-top: 15px;
+     }
+
+     .gridGroceryItem {}
+
+     .girdList img {
+         width: 100%;
+     }
+
+     /* .productCollection*/
+     .productCollection {
+         width: 100%;
+         margin: 25px auto;
+     }
+
+     .productCollection h2 {
+         font-size: 25px;
+     }
+
+     .productRow p {
+         padding-right: 25px;
+     }
+
+     .foodSection {
+         /* flex-direction: column; */
+         flex-wrap: wrap;
+     }
+
+     .foodItem {
+         flex-basis: 48%;
+         margin: 1%;
+     }
+
+     /* .footer */
+
+     .footer {
+         margin: 0 20px;
+     }
+
+     .footerItems {
+         justify-content: space-between;
+     }
+
+     .footerLeft {
+         width: 100%;
+     }
+
+     .footerRight {
+         display: none;
+     }
+
+     /* footerMedia */
+     .blint {
+         display: none;
+     }
+
+     .socialMedialinks {
+         width: 100%;
+         justify-content: center;
+         align-items: center;
+     }
+     .socialMedialinks h4{
+        font-size: 12px;
+     }
+     .socialMedialinks img {
+         width: 35%;
+     }
+
+     .mediaLinks {
+         font-size: 20px;
+     }
+
+ }
